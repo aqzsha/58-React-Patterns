@@ -7,7 +7,6 @@ const App = () => {
   const [selectedUser, setSelectedUser] = useState(null);
 
   useEffect(() => {
-    // Fetching data directly inside the component
     fetch('https://jsonplaceholder.typicode.com/users')
       .then((res) => res.json())
       .then((data) => {
