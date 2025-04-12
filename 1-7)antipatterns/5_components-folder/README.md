@@ -14,27 +14,15 @@
 
 components/ ├── Button.jsx ├── Modal.jsx ├── ProductCard.jsx ├── UserProfile.jsx ├── CartItem.jsx ├── Navbar.jsx ...
 
-shell
-Копировать
-Редактировать
-
 ## ✅ Как лучше
 
 ### Вариант 1: по фичам (Feature-Based)
 
 src/ ├── features/ │ ├── cart/ │ │ ├── CartItem.jsx │ │ └── cartSlice.js │ ├── product/ │ │ ├── ProductCard.jsx │ │ └── productAPI.js
 
-shell
-Копировать
-Редактировать
-
 ### Вариант 2: по типу
 
 src/ ├── ui/ │ ├── Button.jsx │ ├── Modal.jsx ├── layout/ │ ├── Header.jsx │ ├── Footer.jsx ├── pages/ │ ├── HomePage.jsx │ └── ProductPage.jsx
-
-csharp
-Копировать
-Редактировать
 
 ## 🧠 Принцип
 
